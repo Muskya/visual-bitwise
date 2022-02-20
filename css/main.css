@@ -1,0 +1,35 @@
+body {
+    background-color:darkslategray;
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+}
+
+/* "Visual Bitwise" */
+#app-title {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 60px;
+    color: white;
+    /* text-shadow: 0px 0px 1px yellow, 1px 0px 1px yellow,
+                 0px 1px 1px yellow, 1px 1px 1px yellow,
+                 0px 1px 1px yellow, 1px 1px 1px yellow; */
+}
+
+/* First bits sequence */
+#bits1 {
+    height: 33px;
+    width: 950px;
+    margin: 0 auto; /* Centers the grid */
+    display: grid;
+    grid-template-columns: 2fr 1fr 4fr 1fr 2fr;
+    justify-items: center;
+}
+
+/* SLL & SRL number inputs */
+input[id$="-nb"] {
+    width: 50px;
+}
+
+#bits1seq {
+    background-color: blue;
+}
